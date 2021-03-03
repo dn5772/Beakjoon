@@ -7,7 +7,7 @@ int n, m;
 
 int main()
 {
-    int i, size=0;
+    int i, size=1;
 
     scanf("%d %d", &n, &m);
 
@@ -21,7 +21,7 @@ int main()
     if ((n==1)||(m==1))
         printf("1");
     else{
-    for (i=2; i<=50; i++)
+    for (i=1; i<=50; i++)
     {
         if (find_s(num, i))
         {
