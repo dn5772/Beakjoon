@@ -3,6 +3,7 @@
 int main(void) {
 
   int a, b, c, d, e, f;
+  
   float x, y;
 
   printf("a, b, c 입력:");
