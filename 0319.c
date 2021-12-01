@@ -14,6 +14,7 @@ int main(void) {
 
   printf("방정식 : \n%dx+%dy+%d\n%dx+%dy+%d\n", a, b, c, d, e, f);
 
+  
   y = (float)(c*d/a - f)/(-b*d/a +e);
   x = -b*y/a - (float)c/a;
 
